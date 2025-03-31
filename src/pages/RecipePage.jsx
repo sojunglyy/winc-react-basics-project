@@ -16,8 +16,8 @@ import { Tag } from "../components/ui/Tag";
 export const RecipePage = ({ selectedRecipe, clickFn }) => {
   const recipe = selectedRecipe.recipe;
   return (
-    <Center h="100%" bgColor="blue.100">
-      <Card bgColor="white" w={900} h="90%" m={3}>
+    <Center minH="100vh" bgColor="blue.100">
+      <Card bgColor="white" w={900} minH="90vh" m={3}>
         <Box h="3rem" alignContent="center">
           <Button
             size="sm"
